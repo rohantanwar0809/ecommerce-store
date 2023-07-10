@@ -1,34 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Full Stack E-Commerce Dashboard: Next.js 13 
 
-## Getting Started
+This is a repository for a Full Stack E-Commerce Dashboard: Next.js 13
 
-First, run the development server:
+## MAKE SURE YOU HAVE [ADMIN](https://github.com/rohantanwar0809/nextjs_ecommerce_admin.git) SETUP FIRST!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+Key Features:
+
+- Dashboard to exihibit store for the data published in the admin CMS where user can place order , see latest products as well new collection banners(with products)
+- Can quick view the product & can also quick add to cart
+- Can place order using stripe checkout
+
+### Install packages
+
+```shell
+npm i
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Setup .env file
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```js
+NEXT_PUBLIC_API_URL=
+```
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### Start the app
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```shell
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Available commands
 
-## Deploy on Vercel
+Running commands with npm `npm run [command]`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+| command         | description                              |
+| :-------------- | :--------------------------------------- |
+| `dev`           | Starts a development instance of the app |
